@@ -1,0 +1,39 @@
+/* GOOGLE FONTS  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+}
+.container {
+    background: linear-gradient(rgb(253, 233, 242) 0%, rgb(253, 240, 232) 100%, rgb(253, 240, 232) 100%);
+    ;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 70px;
+    max-height: 120px;
+    padding: 0px 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.gap{
+    margin: 0px 10px;
+}
+.logo > img{
+    height: 50px;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+}
+
+.body{
+   margin-top: 70px;
+}
