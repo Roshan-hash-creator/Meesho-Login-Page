@@ -12,59 +12,68 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo gap">
-                <img src="/Images/logo_1.png" alt="">
-            </div>
-            <div class="search__bar">
-                <input type="text" placeholder="Try Saree,Kurti or Search by Product Code">
-            </div>
+            <div class="header__left">
 
-            <div class="app">
-                <img src="/Images/mobile logo.png" alt="">
-                <h3>Download App</h3>
+                <div class="logo gap">
+                    <img src="/Images/logo_1.png" alt="">
+                </div>
+                <div class="search__bar gap">
+                    <input type="text" placeholder="Try Saree,Kurti or Search by Product Code">
+                </div>
             </div>
+            <div class="header__right">
 
-            <div class="seller">
-                <h3>Become a Supplier</h3>
+                <div class="app">
+                    <img src="/Images/mobile logo.png" alt="">
+                    <h3>Download App</h3>
+                </div>
+
+                <div class="seller gap">
+                    <h3>Become a Supplier</h3>
+                </div>
             </div>
         </div>
 
         <div class="body">
-            <div class="advertisers">
-                <img src="/Images/ad_img.webp" alt="">
-            </div>
-            <div class="profile__section">
-
-                <div class="login__title">
-                    <h2>Sign Up to view your profile</h2>
+            <div class="contents">
+                <div class="advertisers">
+                    <img src="/Images/ad_img.webp" alt="">
                 </div>
-                <div class="phone__section">
-                    <div class="country__code">
-                        <p>Country</p>
-                        <p>IN +91</p>
+                <div class="profile__section">
+
+                    <div class="login__title">
+                        <h2>Sign Up to view your profile</h2>
                     </div>
-                    <input type="number" maxlength="10" minlength="10" name="phone_no">
-                    <label for="phone_no">Phone Number</label>
-                </div>
-                <div class="otp__btn">
-                    <button>
-                        <p>Send OTP</p>
-                    </button>
+                    <div class="phone__section">
+                        <div class="country">
+                            <p class="country_name">Country</p>
+                            <p class="country_code">IN +91</p>
+                        </div>
+                        <div class="input-field">
+                            <input type="number" maxlength="10"required>
+                            <label>Phone Number</label>
+                        </div>
+                    </div>
+                    <div class="otp__btn">
+                        <button>
+                            <p>Send OTP</p>
+                        </button>
+                    </div>
+
+                    <div class="terms">
+                        <p>By continuing, you agree to Meesho's
+                            <span>
+                                Terms & Conditions
+                            </span>
+                            and
+                            <span>
+                                Privacy Policy
+                            </span>
+                        </p>
+                    </div>
                 </div>
 
-                <div class="terms">
-                    <p>By continuing, you agree to Meesho's
-                        <span>
-                            Terms & Conditions
-                        </span>
-                        and
-                        <span>
-                            Privacy Policy
-                        </span>
-                    </p>
-                </div>
             </div>
-
         </div>
     </div>
 </body>
